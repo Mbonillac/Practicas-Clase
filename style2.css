@@ -1,0 +1,9 @@
+body {font-family: monospace;}
+
+article h1 {color:#FF0000;}
+p.aviso {color:#0000FF;}
+.aviso {
+        color:#00FF00;
+        font-size: 40px;
+        font-family:serif;
+       }
