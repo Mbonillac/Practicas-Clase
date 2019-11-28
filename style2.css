@@ -1,9 +1,26 @@
-body {font-family: monospace;}
+body {font-family: monospace;
+      background-color: rgb(100%, 90%, 95%);
+}
 
-article h1 {color:#FF0000;}
-p.aviso {color:#0000FF;}
+article h1 {color: #660066;}
+p.aviso {color:#FF0000;
+}
 .aviso {
         color:#00FF00;
         font-size: 4em;
         font-family:serif;
        }
+
+img {
+  width:1200px;
+  height:auto;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: 30em;
+  margin-right: 20em;
+  }
+
+  div {border-bottom:2px solid blue;
+       border-left:2px dashed purple;
+       border-right:2px dotted pink;
+      border-top:2px double red;}
