@@ -1,26 +1,34 @@
+
+/*Paleta de colores:
+ cereza-> #F74D4F
+ verde-> #4DB592
+ lila-> #6500D0
+ pollo-> #F3FFA1
+ sombra de pollo-> #C6CC7F*/
+
 body {font-family: monospace;
       background-color: rgb(95.68627450980392%, 100%, 63.13725490196078%)/*#f4ffa1*/;
 }
 
 article h1 {color: #660066;}
-p.aviso {color:#FF0000;
+p.aviso {color:#F74D4F;
 }
 .aviso {
-        color:#00FF00;
-        font-size: 4em;
+        color:#4DB592;
+        font-size: 2em;
         font-family:serif;
        }
 
 img {
-  width:1200px;
+  width:728px;
   height:auto;
   margin-top: .5em;
   margin-bottom: .5em;
-  margin-left: 30em;
+  margin-left: 20em;
   margin-right: 20em;
   }
 
-  div {border-bottom:2px solid blue;
-       border-left:2px dashed purple;
-       border-right:2px dotted pink;
-      border-top:2px double red;}
+  ul {border-bottom:2px dotted #4DB592;
+       border-left:2px solid #6500D0;
+       border-right:2px dashed #6500D0;
+      border-top:2px double #F74D4F;}
