@@ -8,7 +8,7 @@
 
 body {
       font-family: monospace;
-      background:rgb(95.68627450980392%, 100%, 63.13725490196078%) url(./img/nera2.jpg) no-repeat bottom right;
+      background:rgb(95.68627450980392%, 100%, 63.13725490196078%) /*url(./img/favicon.jpg) repeat*/;
       }
 
 article h1 {color: #660066;}
@@ -20,7 +20,7 @@ p.aviso {color:#F74D4F;
         font-family:serif;
        }
 
-img {
+.banner {
       width:728px;
       height:auto;
       margin-top: .5em;
@@ -35,3 +35,50 @@ img {
        border-right:2px dashed #6500D0;
        border-top:2px double #F74D4F;
        position: fixed;}
+
+.contenedorprincipal {
+
+                      border:1px solid #F74D4F;
+                     }
+.nera3 {
+        width:500px;
+        height:auto;
+        margin-left:1px;
+       }
+
+.N{
+
+        border: 2px solid #4DB592;
+        width:60px;
+        height:80px;
+        position: relative;
+        top:3em;
+
+      }
+
+.E{
+        border: 2px solid #F74D4F;
+        width:60px;
+        height:80px;
+        position: relative;
+        left:-2em
+
+      }
+
+.R{
+      border: 2px solid #4DB592;
+      width:60px;
+      height:80px;
+      position: absolute;
+      left: 8em;
+      top:131em;
+
+      }
+
+.A{
+      border: 2px solid #6500D0;
+      width:60px;
+      height:80px;
+      position: relative;
+
+      }
