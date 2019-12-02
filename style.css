@@ -3,12 +3,13 @@
  cereza-> #F74D4F
  verde-> #4DB592
  lila-> #6500D0
- pollo-> #F3FFA1
+ pollo-> #F3FFA1 ,#f4ffa1
  sombra de pollo-> #C6CC7F*/
 
-body {font-family: monospace;
-      background-color: rgb(95.68627450980392%, 100%, 63.13725490196078%)/*#f4ffa1*/;
-}
+body {
+      font-family: monospace;
+      background:rgb(95.68627450980392%, 100%, 63.13725490196078%) url(./img/nera2.jpg) no-repeat bottom right;
+      }
 
 article h1 {color: #660066;}
 p.aviso {color:#F74D4F;
@@ -20,15 +21,17 @@ p.aviso {color:#F74D4F;
        }
 
 img {
-  width:728px;
-  height:auto;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  margin-left: 20em;
-  margin-right: 20em;
-  }
+      width:728px;
+      height:auto;
+      margin-top: .5em;
+      margin-bottom: .5em;
+      margin-left: 20em;
+      margin-right: 20em;
+      }
 
-  ul {border-bottom:2px dotted #4DB592;
+  ul {
+       border-bottom:2px dotted #4DB592;
        border-left:2px solid #6500D0;
        border-right:2px dashed #6500D0;
-      border-top:2px double #F74D4F;}
+       border-top:2px double #F74D4F;
+       position: fixed;}
