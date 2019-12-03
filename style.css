@@ -52,7 +52,12 @@ p.aviso {color:#F74D4F;
         width:60px;
         height:80px;
         position: relative;
-        top:3em;
+        z-index:3;
+        top:-1em;
+        left:10em;
+        opacity:0.2;
+
+
 
       }
 
@@ -61,7 +66,9 @@ p.aviso {color:#F74D4F;
         width:60px;
         height:80px;
         position: relative;
-        left:-2em
+        z-index:2;
+        left:8em;
+        opacity:0.4;
 
       }
 
@@ -69,16 +76,20 @@ p.aviso {color:#F74D4F;
       border: 2px solid #4DB592;
       width:60px;
       height:80px;
-      position: absolute;
-      left: 8em;
-      top:131em;
+      position: relative;
+      z-index:1;
+      left:7em;
+      top:-1em;
+      opacity:0.6;
 
       }
 
 .A{
-      border: 2px solid #6500D0;
+      border: 2px solid #F74D4F;
       width:60px;
       height:80px;
       position: relative;
+      left:5em;
+      opacity:0.8;
 
       }
