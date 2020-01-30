@@ -6,7 +6,9 @@ header {width:100%;
 
 nav {   width:100%;
         height: 50px;
-        background-color:#6500D0;}
+        background-color:#6500D0;
+        display: flex;
+        justify-content: center; }
 
 #contenedor {   height:550px;
                 display:flex;}
@@ -23,3 +25,30 @@ main {  width:50%;
 footer {width:100%;
         height:50px;
         background-color:#F74D4F;}
+
+
+/*Menu de navegacion*/
+
+.menu { margin:0;
+        padding:0;
+        list-style-type: none;
+        background-color:rgb(34, 54, 73);
+        clear:both;
+        float:left;
+        border-left:1px solid silver;}
+
+.menu li {  float:left;}
+
+.menu li a {    font-size:25px;
+                text-decoration:none;
+                color:rgb(62, 201, 120);
+                display:block;
+                padding:10px;
+                border-top:1px solid silver;
+                border-right:1px solid silver;
+                border-bottom:1px solid silver;}
+
+.menu li a:hover {  color:rgb(34, 54, 73);
+                    background-color:rgb(62, 201, 120);}
+
+.menu li a:hover > i {color:rgb(157, 62, 201);}
