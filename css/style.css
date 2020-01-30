@@ -6,7 +6,7 @@ header {width:100%;
 
 nav {   width:100%;
         height: 50px;
-        background-color:#6500D0;
+        background-color:rgb(34, 54, 73);
         display: flex;
         justify-content: center; }
 
@@ -14,11 +14,11 @@ nav {   width:100%;
                 display:flex;}
 
 aside { width:25%;
-        background-color:#F3FFA1;
-        border:1px solid #C6CC7F;}
+        background-color:#4DB592;
+        border:1px solid rgb(60, 141, 114);}
 
 main {  width:50%;
-        background-color:#C6CC7F;}
+        background-color:rgb(136, 173, 161);}
 
 /*article {}*/
 
