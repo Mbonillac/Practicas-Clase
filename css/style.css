@@ -30,11 +30,14 @@ main {  width:100%;
         background-image: url(../img/geometry.jpg);
         background-size:25%;}
 
-.genio { width: 60%;
-        height: 40%;
-        margin-top:40%;
-        margin-left:20%
-}
+        .genio { width: 200px;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:auto;
+                margin-bottom:auto;
+                display: block;
+              }
 
 .galaxy {width:100%;}
 
@@ -100,8 +103,12 @@ main, .menuder {display:flex;
 
 .genio { width: 200px;
         height: 200px;
-       margin-top:50%;
-        margin-left:25%}
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        display: block;
+      }
 
 .menu li a {    font-size:18px;}
 
@@ -131,10 +138,14 @@ header {width:100%;
 .menuder {      display:flex;
                 flex:25%;}
 
-.genio { width: 400px;
-        height: 400px;
-        margin-left:28%;
-        margin-top:10%;}
+main {text-align:center;}
+.genio { width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        display: block;}
 
 .menu li a {font-size:25px;}
 }
