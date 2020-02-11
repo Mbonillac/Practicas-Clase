@@ -30,12 +30,11 @@ main {  width:100%;
         background-image: url(../img/geometry.jpg);
         background-size:25%;}
 
-.genio { width: 200px;
-        height: 200px;
-        top: 60%;
-        left: 49%;
-        margin-top: -180px;
-        margin-left: -180px;}
+.genio { width: 60%;
+        height: 40%;
+        margin-top:40%;
+                margin-left:20%
+}
 
 .galaxy {width:100%;}
 
@@ -99,10 +98,8 @@ main, .menuder {display:flex;
 
 .genio { width: 200px;
         height: 200px;
-         top: 60%;
-         left: 49%;
-         margin-top: -180px;
-         margin-left: -180px;}
+       margin-top:50%;
+        margin-left:25%}
 
 
 }
@@ -120,5 +117,11 @@ main, .menuder {display:flex;
         
 .menuder {      display:flex;
                 flex:25%;}
+
+.genio { width: 400px;
+        height: 400px;
+        margin-left:28%;
+        margin-top:10%;}
+                
         }
         
