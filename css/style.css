@@ -2,14 +2,14 @@
 
 
 
-body {margin:0;}
+body {margin:0;
+        background-color: rgb(61,61,61);}
 
 header {width:100%;
-        height:200px;
+        height: 100px;
         background-image: url(../img/favicon.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;}
+        background-size:5%;
+        background-repeat: repeat;}
 
 /*Menu de navegacion*/
 
@@ -108,6 +108,14 @@ footer {width:100%;
 
 body {margin:0;}
 
+header {flex:100%;
+        height:200px;
+        background-image: url(../img/estilo2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+
 #contenedor {     display:flex;
                 flex-direction: row;} 
 
@@ -138,7 +146,7 @@ main, .menuder {display:flex;
 
 body {margin:0;}
 
-header {width:100%;
+header {flex:100%;
         height:200px;
         background-image: url(../img/estilo2.jpg);
         background-position: center;
