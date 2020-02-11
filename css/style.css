@@ -33,7 +33,7 @@ main {  width:100%;
 .genio { width: 60%;
         height: 40%;
         margin-top:40%;
-                margin-left:20%
+        margin-left:20%
 }
 
 .galaxy {width:100%;}
@@ -48,7 +48,7 @@ footer {width:100%;
 
 .menu { margin:0;
         padding:0;
-        width:100%;
+        flex:100%;
         list-style-type: none;
         background-color:rgb(63, 63, 63);
         clear:both;
@@ -61,7 +61,7 @@ footer {width:100%;
             background-image: url(../img/fondocasilla.jpg);
         }
 
-.menu li a {    font-size:25px;
+.menu li a {    font-size:12px;
                 text-decoration:none;
                 color:rgb(41, 212, 132);
                 display:block;
@@ -88,6 +88,8 @@ footer {width:100%;
 
 @media only screen and (min-width: 420px){
 
+body {margin:0;}
+
 #contenedor {     display:flex;
                 flex-direction: row;} 
 
@@ -101,6 +103,8 @@ main, .menuder {display:flex;
        margin-top:50%;
         margin-left:25%}
 
+.menu li a {    font-size:18px;}
+
 
 }
 
@@ -109,11 +113,13 @@ main, .menuder {display:flex;
 
 @media only screen and (min-width: 769px){
 
-#contenedor {     display:flex;
+body {margin:0;}
+
+#contenedor {   display:flex;
                 flex-direction: row;} 
         
 .menuizq {      display:flex;
-                flex:25%}
+                flex:25%;}
         
 .menuder {      display:flex;
                 flex:25%;}
@@ -122,6 +128,6 @@ main, .menuder {display:flex;
         height: 400px;
         margin-left:28%;
         margin-top:10%;}
-                
-        }
-        
+
+.menu li a {font-size:25px;}
+}
