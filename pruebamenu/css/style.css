@@ -1,0 +1,19 @@
+body {  margin:0;
+        background-color: rgb(63, 63, 63);}
+
+div {   text-align: center;}
+
+li {    list-style: none;
+        font-size:40px;}
+
+a { text-decoration: none;
+    color:rgb(41, 212, 132);
+    padding:5px 15px;
+    border:2px solid rgb(41, 212, 132);}
+
+a:hover { text-decoration: none;
+          background-color:rgb(41, 212, 132);
+          color: rgb(63, 63, 63);
+          padding:5px 15px;
+          border:2px solid rgb(63, 63, 63);
+          box-shadow: 1px 1px 2px 6px rgb(63, 63, 63) inset;}
