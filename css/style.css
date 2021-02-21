@@ -71,8 +71,8 @@ aside {
 .astronauta { width:100%;}
 
 main {  width:100%;
-        background-color:rgb(136, 173, 161);
-        background-image: url(../img/geometry.jpg);
+        background-color:#4DB592;
+        /*background-image: url(../img/geometry.jpg);*/
         background-size:25%;}
 
 .genio { width: 200px;
